@@ -11,9 +11,15 @@
 </head>
 
 <body>
-    <h1>Webシステム構築基礎第2回課題　津田静香（AAA25177）</h1>
-    <h2>おすすめの旅行先</h2>
-    <h3>福岡</h3>
+    <h1>Webシステム構築基礎第3回課題　津田静香（AAA25177）</h1>
+    <h2>BMI指標の計算</h2>
+    <form oninput="bmi.value = Math.round(Number(weight.value) / Math.pow(Number(height.value)/100, 2) * 10) / 10">
+    <p><label>体重(kg)：<input name="weight" type="number" step="any"></label></p>
+    <p><label>身長(cm)：<input name="height" type="number" step="any"></label></p>
+    <p><label>BMI：<output name="bmi"></output></label></p>
+    </form>
+    <h3>おすすめの旅行先</h3>
+    <h4>福岡</h4>
     <ol>
         <li>食べ物→博多うどん、屋台、あまおう．．．</li>
         <li>観光名所→龍宮寺、博多旧市街、承天寺．．．</li>
